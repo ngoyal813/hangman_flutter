@@ -14,10 +14,8 @@ class HangmanWords {
   void resetWords() {
     wordCounter = 0;
     _usedNumbers = [];
-//    _words = [];
   }
 
-  // ignore: missing_return
   String getWord() {
     wordCounter += 1;
     var rand = Random();
